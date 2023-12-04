@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Basic Website</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h1>Welcome to My Website</h1>
+        <p>This is a simple website with various elements.</p>
+        <img src="video1.jpg" alt="Video 1">
+        <p>Text description here...</p>
+        <button>Click me</button>
+        <input type="text" placeholder="Enter text">
+    </section>
+
+    <section>
+        <!-- Another section with additional content -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Basic Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
